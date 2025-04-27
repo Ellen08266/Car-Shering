@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    max-width: 1088px;
+    margin: 0;
+}
+.top {
+    background-image: url(../images/Image.png);
+    background-size: cover;
+    height: calc(100-50px);
+}
+
+.logo{
+    background-image: url(../images/Logo\ Footer.svg);
+}
