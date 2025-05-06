@@ -2,19 +2,153 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
-.container{
+.container {
     max-width: 1088px;
-    margin: 0;
+    margin: 0 auto;
 }
+
+.container h1 span {
+    color: red;
+
+}
+
+
+
 .top {
     background-image: url(../images/Image.png);
     background-size: cover;
-    height: calc(100-50px);
+    height: calc(100vh - 50px);
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
-.logo{
-    background-image: url(../images/Logo\ Footer.svg);
+.top header {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.global-navigation {
+
+    display: flex;
+    gap: 10px;
+    padding-right: 35px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    margin: 0 0 0 20px;
+}
+
+.top .banner {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-group {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    font-size: small;
+    margin: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+.btn-group .btn-primary {
+    display: flex;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.btn-group .btn-secondary {
+    display: flex;
+    color: red;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container>h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    padding: 10px 90px 10px 90px;
+    font-size: small;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 20px;
+}
+
+button {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 380px;
+    border-color: transparent;
+    background: red url(../images/Icon\ Arrow\ Down.svg) no-repeat;
+
+}
+
+.container1 {
+    max-width: 1088px;
+
+    height: 600px;
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.section {
+    display: flex;
+}
+
+.section img {
+    width: 250px;
+    height: 170px;
+}
+.read-more {
+    margin-left: 20px;
 }
