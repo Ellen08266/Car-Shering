@@ -5,7 +5,7 @@
 }
 
 .container {
-    max-width: 1088px;
+    /*   max-width: 1088px; */
     margin: 0 auto;
 }
 
@@ -87,7 +87,6 @@
     display: flex;
     color: red;
     background-color: white;
-    border-radius: 20px;
     text-decoration: none;
     border-radius: 20px;
     width: 120px;
@@ -104,9 +103,10 @@
     font-size: 50px;
 }
 
-p {
+
+.container>.h1 p {
     padding: 10px 90px 10px 90px;
-    font-size: small;
+    font-size: medium;
 }
 
 ul {
@@ -123,32 +123,187 @@ button {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin-left: 380px;
+    /*  margin-left: 415px; */
     border-color: transparent;
-    background: red url(../images/Icon\ Arrow\ Down.svg) no-repeat;
 
+}
+
+
+.arrow {
+    background-color: red;
+    
+}
+
+.read-more {
+    margin-left: 20px;
+    background: red;
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 35px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .container1 {
     max-width: 1088px;
-
     height: 600px;
 }
 
 .blog {
+    /*  max-width: 1088px; */
     display: flex;
     justify-content: center;
     align-content: center;
+    font-family: Nunito Sans, Bold;
+
 }
 
-.section {
+.blog h1 {
     display: flex;
+    align-items: center;
+}
+
+.blog h1::before {
+    content: " ";
+    width: 35px;
+    height: 5px;
+    background-color: red;
+    margin-right: 10px;
+
+}
+
+.blog h1::after {
+    content: " ";
+    width: 35px;
+    height: 5px;
+    background-color: red;
+    margin-left: 10px;
+
+}
+.section {
+    max-width: 1088px;
+    padding-left: 100px;
+    padding-bottom: 60px;
+    display: flex;
+    gap: 20px;
 }
 
 .section img {
     width: 250px;
     height: 170px;
+
 }
-.read-more {
-    margin-left: 20px;
+
+
+
+.card h2 {
+    color: #6A6A6A;
+    opacity: 1;
+    font: 16px Nunito Sans;
+    padding-top: 20px;
+}
+
+.card p {
+    justify-content: flex-start;
+    color: #6A6A6A;
+    opacity: 1;
+    padding-top: 15px;
+}
+
+
+
+.container-service {
+    height: 400px;
+    display: flex;
+    gap: 15px;
+    padding-left: 100px;
+    background: #28272C 0% 0% no-repeat padding-box;
+}
+
+.service {
+    background: #28272C 0% 0% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    height: 140px;
+    width:
+}
+
+.service-p>p {
+    padding-left: 0;
+    padding-top: 15px;
+    color: white;
+}
+
+.service h2 {
+    padding-top: 40px;
+    
+}
+.service h2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.service h2::before {
+
+    content: " ";
+    width: 35px;
+    height: 5px;
+    background-color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.service h2::after {
+
+    content: " ";
+    width: 35px;
+    height: 5px;
+    background-color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.service-p h2 {
+    color: white;
+    align-content: center;
+    font: 16px Nunito Sans;
+    padding-top: 20px;
+}
+
+.section-contact {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: Nunito Sans, Bold;
+    margin-top: 40px;
+    display: flex;
+}
+.section-contact h2 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.section-contact h2::before {
+    content: " ";
+    width: 35px;
+    height: 5px;
+    background-color: red;
+    margin-right: 10px;
+}
+
+.section-contact h2::after {
+    content: " ";
+    width: 35px;
+    height: 5px;
+    background-color: red;
+    margin-left: 10px;
 }
