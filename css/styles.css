@@ -114,9 +114,6 @@ ul {
     list-style-type: none;
 }
 
-li {
-    padding: 20px;
-}
 
 button {
 
@@ -160,6 +157,7 @@ button {
     margin-top: 20px;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 3px 6px #FF00004D;
 }
 
 .container1 {
@@ -375,6 +373,10 @@ border: 1px solid ;
     display: flex;
     width: 250px;
 }
+.name {
+    border-color: red;
+    box-shadow: 0px 1px 6px #FF00004D;
+}
 
 .message {
     height: 90px;
@@ -398,6 +400,7 @@ border: 1px solid ;
     align-items: center;
     border-color: red;
     margin-bottom: 40px;
+    box-shadow: 0px 3px 6px #FF00004D;
 }
 .footer-navi li span {
     color: red;
@@ -410,25 +413,42 @@ border: 1px solid ;
 }
 
 
-li a {
+ a {
     color: white;
-
+    text-decoration: none;
+   
+    
 }
 
-.navigation ol {
 
-    list-style: none;
-}
 
 .footer {
 
     /*   width: 1088px; */
-    height: 550px;
+    height: 250px;
     background: #28272C;
     color: white;
     font-size: 10px;
 }
 
+.footer-navi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 29px;
+    padding-right: 780px;
+
+}
+
+.footer-navi div {
+    flex: 1 35%;
+    box-sizing: border-box;
+}
+
+span {
+    color: red;
+}
 .copyright {
     display: flex;
     justify-content: flex-end;
