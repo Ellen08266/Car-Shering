@@ -130,9 +130,23 @@ button {
 
 
 .arrow {
+    width: 50px;
+    height: 50px;
     background-color: red;
-    
+    position: absolute;
+    border-radius: 50%;
+    top: 86%;
+    left: 48%;
+
 }
+
+.arrow img {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+
 
 .read-more {
     margin-left: 20px;
@@ -154,11 +168,12 @@ button {
 }
 
 .blog {
-    /*  max-width: 1088px; */
+    /*    max-width: 1088px; */
     display: flex;
     justify-content: center;
     align-content: center;
     font-family: Nunito Sans, Bold;
+    margin-top: 30px;
 
 }
 
@@ -184,6 +199,7 @@ button {
     margin-left: 10px;
 
 }
+
 .section {
     max-width: 1088px;
     padding-left: 100px;
@@ -242,8 +258,9 @@ button {
 
 .service h2 {
     padding-top: 40px;
-    
+
 }
+
 .service h2 {
     display: flex;
     align-items: center;
@@ -277,22 +294,24 @@ button {
     padding-top: 20px;
 }
 
-.section-contact {
-    height: 400px;
+
+.contact {
+    height: 100px;
     display: flex;
     justify-content: center;
     align-content: center;
-    font-family: Nunito Sans, Bold;
-    margin-top: 40px;
-    display: flex;
-}
-.section-contact h2 {
-    display: flex;
-    align-items: center;
-    
+    font-family: Nunito Sans;
+    margin-top: 10px;
+
 }
 
-.section-contact h2::before {
+.contact h2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.contact h2::before {
     content: " ";
     width: 35px;
     height: 5px;
@@ -300,10 +319,96 @@ button {
     margin-right: 10px;
 }
 
-.section-contact h2::after {
+.contact h2::after {
     content: " ";
     width: 35px;
     height: 5px;
     background-color: red;
     margin-left: 10px;
+}
+
+.contact-foto img {
+
+    width: 250px;
+    margin-left: 80px;
+}
+
+input {
+    border: 1px solid #aaa;
+    height: 25px;
+    opacity: 1;
+    outline: none;
+    border-radius: 4px;
+   
+ 
+ }
+
+
+.formulare {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+
+
+}
+.formulare>p::before {
+content: "";
+width: 10px;
+height: 10px;
+border: 1px solid ;
+}
+
+.formulare p {
+    color: #aaa;
+    opacity: 1;
+    font-size: 8px;
+
+    flex-direction: column;
+    display: flex;
+    width: 250px;
+}
+
+.message {
+    height: 90px;
+}
+
+.icon-check {
+    width: 15px;
+    box-sizing: border-box;
+}
+
+.footer-navi li span {
+    color: red;
+}
+
+
+.footer .logo span {
+    color: red;
+    text-align: left;
+}
+
+
+li a {
+    color: white;
+
+}
+
+.navigation ol {
+
+    list-style: none;
+}
+
+.footer {
+
+    /*   width: 1088px; */
+    height: 550px;
+    background: #28272C;
+    color: white;
+    font-size: 10px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
 }
